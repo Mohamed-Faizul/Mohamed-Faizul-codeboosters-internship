@@ -1,0 +1,119 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    align-items: center;
+    justify-content: center;
+    padding: 114px 0px;
+    background-color: rgba(228,242,253,255);
+    display: flex;
+}
+h1{
+    position: absolute;
+    display: flex;
+    top: 6%;
+    color: rgba(6,13,39,255);
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+h2{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    top: 16%;
+    color: rgba(76,119,228,255);
+    font-size: 33px;
+}
+
+.container {
+    max-width: 1270px;
+    padding: 100px 90px;
+    margin-top: 85px;
+    margin-bottom: -68px;
+    width: 90%;
+    background-color: rgba(6,13,39,255);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+}
+.footer-list h4{
+    display: flex;
+    top: 0;
+    padding-bottom: 20px;
+    color: white;
+}
+.footer-list ul{
+    list-style: none;
+    margin-right: 180px;
+}
+.footer-list ul li{
+    margin-bottom: 8px;
+    white-space: nowrap;
+}
+.footer-list ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.para p{
+    font-size: 14px;
+    padding-bottom: 15px;
+    padding-top: 8px;
+}
+.details .email{
+    padding: 8px;
+    border: 1px solid rgb(56, 89, 139);
+    border-radius: 6px;
+    font-size: 14px;
+    background:transparent;
+    color: white;
+    transition: 0.1s ease;
+    z-index: 1111;
+}
+input::placeholder{
+    color: white;
+}
+.details .Subscribe{
+    padding: 10px 8px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    color: dimgrey;
+    font-weight: 700;
+    cursor: pointer;
+}
+.social-media ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+}
+.social-media ul li{
+    margin-right: 20px;
+    padding-top: 15px;
+    cursor: pointer;
+}
+
+/*Responsive*/
+@media(max-width:767px){
+    .container {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:574){
+    .container {
+        width: 100%;
+    }
+}
